@@ -7,7 +7,7 @@
     transition: all 0.5s ease; /* Transition douce pour les changements */
 }
 
-/* Media query pour les écrans supérieurs à 600px de large */
+/* Media query pour les écrans  sup ou égal à 600px de large */
 @media (min-width: 600px) {
     #exemple {
         background-color: lightblue; /* Change la couleur de fond */
@@ -15,7 +15,7 @@
     }
 }
 
-/* Media query pour les écrans supérieurs à 900px de large */
+/* Media query pour les écrans sup ou égal à 900px de large */
 @media (min-width: 900px) {
     #exemple {
         background-color: lightgreen; /* Change la couleur de fond */
@@ -26,7 +26,7 @@
 /* Combinaison de conditions : paysage et largeur min de 600px */
 @media (orientation: landscape) and (min-width: 600px) {
     #exemple {
-        background-color: coral; /* Couleur de fond spécifique pour le mode paysage */
+        background-color: coral; 
     }
 }
 
