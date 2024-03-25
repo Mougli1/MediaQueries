@@ -26,6 +26,8 @@
 @media (orientation: landscape) and (min-width: 600px) {
     #exemple {
         background-color: coral; 
+        color: rgb(0, 0, 0); /* Change la couleur de texte */
+
     }
 }
 
